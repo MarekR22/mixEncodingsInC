@@ -14,3 +14,6 @@ add_custom_command(
             $<TARGET_FILE_DIR:read_file>/example_utf-8.txt
 )
 
+add_executable(cpp_read_file
+    main.cpp
+)
